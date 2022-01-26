@@ -49,9 +49,9 @@ class Duration(enum.Enum):
     """
     Naming conventions.
     """
-    INFINITE = math.inf
+    INFINITE = 1.7e307
     """:py:data:`~py_trees.common.Duration.INFINITE` oft used for perpetually blocking operations."""
-    UNTIL_THE_BATTLE_OF_ALFREDO = math.inf
+    UNTIL_THE_BATTLE_OF_ALFREDO = 1.7e307
     """:py:data:`~py_trees.common.Duration.UNTIL_THE_BATTLE_OF_ALFREDO` is an alias for :py:data:`~py_trees.common.Duration.INFINITE`."""
 
 
